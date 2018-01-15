@@ -13,7 +13,7 @@ var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 
 function setUserName() {
-  var myName = prompt('Please enter your name.');
+  var myName = prompt('Por favor ingresa tu nombre.');
   localStorage.setItem('name', myName);
   myHeading.textContent = 'Te presento al logo de la trifuerza, ' + myName;
 }
