@@ -1,0 +1,32 @@
+html {
+  font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  background-color: #07E8A1;
+} /*#9FE4AF*/
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+  margin: 0;
+  padding: 10px 0;
+  color: #013106;
+  text-shadow: 3px 3px 6px gold;
+}
+
+p, li {
+  font-size: 17px;
+  line-height: 2;
+  letter-spacing: 1px;
+  font-family: 'Habibi', serif;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #C0EBCA;
+  padding: 0 20px 20px 20px;
+  border: 5px solid lightgrey;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
